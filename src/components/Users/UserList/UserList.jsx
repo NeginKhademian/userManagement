@@ -11,7 +11,6 @@ const UserList = () => {
     const [totalPages, setTotalPages] = useState(0);
     const [isModalOpen, setIsModalOpen] = useState(false);
     const [userToDelete, setUserToDelete] = useState(null);
-    const { logout } = useAuth();
     const navigate = useNavigate();
 
     useEffect(() => {
